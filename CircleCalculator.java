@@ -7,7 +7,7 @@ public class CircleCalculator {
 
         System.out.print("Enter the radius of the circle: ");
 
-        double radius = 5.00;
+        double radius = input.nextDouble();
         double area = Math.PI * Math.pow(radius, 2);
         double circumference = 2 * Math.PI * radius;
         input.close();
